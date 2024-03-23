@@ -16,7 +16,7 @@ const Hero = () => {
             Youth Through<br/> 
             Education And Technology
           </h1>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-2xl text-white mb-8">
             Women Been equipped with skills they need<br/> 
             to succeed to have independence and be their own boss.
           </p>
