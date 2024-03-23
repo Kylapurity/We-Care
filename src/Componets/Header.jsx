@@ -20,7 +20,7 @@ const Header = () => {
                     <span className="mx-4"></span>
                     <a href="#Contact" className="text-1xl text-gray-700 hover:text-gray-900 hover:underline active:underline font-bold uppercase">Contact Us</a>
                 </div>
-                <a href="#" className="hidden py-2 px-4 text-lg text-white bg-darkBlue rounded-full baseline hover:bg-mediumBlue md:block uppercase">Get Started</a>
+                <a href="#" className="hidden py-2 px-4 text-lg text-white bg-blue-600 rounded-full baseline hover:bg-darkBlue md:block uppercase">Get Started</a>
                 <button id="menu-btn" className="block md:hidden border-black focus:outline-none">
                     <span className="menu-btn-top"></span>
                     <span className="menu-btn-middle"></span>
