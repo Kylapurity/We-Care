@@ -4,9 +4,10 @@ import React from 'react';
 const Header = () => {
     return (
         <nav className="container mx-auto bg-brightRedSupLight shadow-md py-2 px-4 md:py-3 md:px-5">
-            <div className="flex items-center justify-center"> {/* Centering everything */}
+            <div className="flex items-center justify-center space-x-8"> 
                 <div className='flex'>
-                    <img className='w-40 text-3xl space-x-8' src="src/Images/Logo care.jpg" alt="logo" />
+                   <h1 className='text-3xl text-blue-600 uppercase'>
+                    <span  className="border-2 border-blue-600 rounded-full p-1">We</span>Care</h1>
                 </div>
                 <div className="hidden space-x-6 md:flex justify-between">
                     <a href="#Hero" className="text-1.5xl text-gray-700 hover:text-gray-900 hover:underline active:underline font-bold uppercase">Home</a>
@@ -19,7 +20,7 @@ const Header = () => {
                     <span className="mx-4"></span>
                     <a href="#Contact" className="text-1xl text-gray-700 hover:text-gray-900 hover:underline active:underline font-bold uppercase">Contact Us</a>
                 </div>
-                <a href="#" className="hidden p-2 px-4 pt-1 text-white bg-darkBlue rounded-full baseline hover:bg-mediumBlue md:block uppercase">Get Started</a>
+                <a href="#" className="hidden align-center p-4 px-4 pt-1 text-white bg-darkBlue rounded-full baseline hover:bg-mediumBlue md:block uppercase">Get Started</a>
                 <button id="menu-btn" className="block md:hidden border-black focus:outline-none">
                     <span className="menu-btn-top"></span>
                     <span className="menu-btn-middle"></span>
