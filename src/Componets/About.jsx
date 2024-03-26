@@ -5,8 +5,8 @@ import Card from './Card';
 
 const About = () => {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-3xl font-bold mt-6 uppercase">About Us</h1>
+    <div className="container mx-auto" id='about'>
+      <h1 className="text-3xl font-bold mt-6 uppercase" href="#about">About Us</h1>
       <div className="grid grid-cols-2 gap-4">
         <Card icon={<FaUser />} title="Our Team">
         <p>Our team consists of experienced professionals from various fields who are passionate about making a positive impact on the lives of young individuals.</p>
