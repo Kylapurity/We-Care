@@ -31,7 +31,7 @@ const Data = [
 const Courses = () => {
   return (
     <div className="container mx-auto mb-0">
-      <h1 className="text-3xl font-bold mb-4 flex justify-center items-center underline text-blue-700 uppercase">Featured Courses</h1>
+      <h1 className="text-3xl font-bold mt-6 flex justify-center items-center underline text-blue-700 uppercase">Featured Courses</h1>
       <div className="flex flex-wrap gap-6 ml-20 mt-5">
         {Data.map((d, index) => (
           <div key={index} className="p-6 bg-gray-100 rounded-lg shadow-md w-72">

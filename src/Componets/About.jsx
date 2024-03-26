@@ -1,29 +1,19 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { FaUser, FaComments, FaBookOpen, FaSmile } from 'react-icons/fa';
-import Card from './Card';
 
 const About = () => {
   return (
-    <div className="container mx-auto ">
-      <h1 className="text-3xl font-bold mt-6 uppercase underline text-blue-600">About Us</h1>
-      <div className="flex flex-wrap gap-6 ml-20 mt-5 m-20">
-        <Card icon={<FaUser />} title="Our Team">
-          <p>Our team consists of experienced professionals from various fields who are passionate about making a positive impact on the lives of young individuals.</p>
-        </Card>
-        <Card icon={<FaComments />} title="Our Mission">
-          <p>To Save our Youths from Been lost with lack of skills and Know how to be ventures of saving the Economy</p>
-        </Card>
-        <Card icon={<FaBookOpen />} title="Our Education">
-          <p>We will be offeering mentorships, Enterprnuers skill, Online class to advance their skills and alos we will be offeering first seed money to every venture.</p>
-        </Card>
-        <Card icon={<FaSmile />} title="Easy To use">
-          <p>To get acces to our platform we  the students will be paying $1 per month and if they cant access it we will be offeering a basic free subcription.</p>
-        </Card>
+
+    <div className="container-image">
+      <img src="/src/Images/girl.jpg" alt="Women together" className="image" />
+      <div className="max-w-md">
+        <p className="text-sm text-gray-800 mt-5">
+          At our organization, we are dedicated to empowering the youth by providing them with the necessary skills and knowledge to thrive in today's world. Through our programs and initiatives, we aim to equip young individuals with practical skills in various fields, including technology, entrepreneurship, and personal development. We believe in the power of education and mentorship to unlock the potential of every young person. By offering mentorship programs, online courses, and workshops, we help aspiring entrepreneurs and professionals learn valuable skills, navigate challenges, and pursue their passions with confidence.
+        </p>
       </div>
     </div>
   );
-};
+}
 
 export default About;
 
