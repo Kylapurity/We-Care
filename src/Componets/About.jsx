@@ -5,11 +5,15 @@ const About = () => {
   return (
 
     <div className="container-image">
+      <h1 className="flex justify-center text-blue-600 text-3xl">About us</h1>
       <img src="/src/Images/girl.jpg" alt="Women together" className="image" />
       <div className="max-w-md">
         <p className="text-1xl text-gray-800 mt-5">
-          At our organization, we are dedicated to empowering the youth by providing them with the necessary skills and knowledge to thrive in today's world. Through our programs and initiatives, we aim to equip young individuals with practical skills in various fields, including technology, entrepreneurship, and personal development. We believe in the power of education and mentorship to unlock the potential of every young person. By offering mentorship programs, online courses, and workshops, we help aspiring entrepreneurs and professionals learn valuable skills, navigate challenges, and pursue their passions with confidence.
+          At our organization, we are dedicated to empowering the youth by providing them with the necessary skills and knowledge to thrive in today world. Through our programs and initiatives, we aim to equip young individuals with practical skills in various fields, including technology, entrepreneurship, and personal development. 
         </p>
+        <button  type="button" onClick={() => window.location.href = '/signup'} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+          Lets get started
+        </button>
       </div>
     </div>
   );
