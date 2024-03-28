@@ -41,7 +41,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="max-w-4xl mx-auto mt-6">
+        <div className="max-w-4xl mx-auto mt-6" >
             <h1 className="text-3xl font-bold flex justify-center items-center underline text-blue-700 uppercase">Testimonials</h1>
             <Slider {...settings} className="mt-4 mb-6">
                 {Data.map((d, index) => (
