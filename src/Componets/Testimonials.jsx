@@ -6,13 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Data = [
     {
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9pAEEgK_VhZRHRaqAXV8ygzhi6VJULqcif5W6ySbaF5Cofgs9W2C_pxHUOmUZR2T1io&usqp=CAU',
+        image: 'https://www.rasmussen.edu/images/rasmussenlibraries/open-graph/network-systems-administration-og.jpg',
         name: 'Chanlet Mary',
         title: 'Web Developer',
         description: "Chanlet Mary is a senior developer at Google with over 10 years of experience. She has a strong background in web development and has contributed to various projects during her tenure at Google. Her expertise lies in developing robust and efficient web applications, and she is known for her problem-solving skills and attention to detail.",
     },
     {
-        image: 'https://www.brookings.edu/wp-content/uploads/2022/11/shutterstock_2136404171_small.jpg',
+        image: 'https://www.goodthingsguy.com/wp-content/uploads/2021/08/women-in-tech.jpg',
         name: 'Jane Win',
         title: 'Data Analyst',
         description: "Jane Win is a skilled Data Analyst with expertise in data analysis and interpretation. She has a proven track record of delivering actionable insights from complex datasets. Jane is known for her analytical mindset and ability to communicate effectively with stakeholders to drive data-driven decisions.",
