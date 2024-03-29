@@ -8,9 +8,12 @@ const Footer = () => {
       <div className='container mx-auto py-6'>
         <div className='flex justify-between items-center'>
           <div className='text-white flex items-center'>
-            <img src="/src/Images/girl.jpg" alt="Women together" className="w-40 h-30  mr-4" />
-            <p className='text-gray-600 text-xl ml-8'>We Care is dedicated to providing top-notch services in Nairobi, Kenya.<br/> 
-            Our mission is to make a positive impact on society through our work.</p>
+          <h1 className='text-2xl font-bold uppercase underline'>We Care</h1>
+            <img src="/src/Images/girl.jpg" alt="Women together" className="w-70 h-40 mr-4" />
+            <p className='text-white text-sm ml-8 md:text-xl'>We Care is dedicated to providing top-notch services in Nairobi, Kenya.<br/> 
+            Through our programs and initiatives, we aim to equip young individuals with practical skills in various fields, <br/>
+            Including technology, entrepreneurship, and personal development. Our mission is to make a positive impact <br/>
+             on society through our work.</p>
           </div>
           <nav className="mt-4 mr-20">
             <ul>

@@ -1,4 +1,4 @@
-import About from './Componets/About'
+// import About from './Componets/About'
 import Courses from './Componets/Courses'
 import Footer from './Componets/Footer'
 import Header from './Componets/Header'
@@ -12,7 +12,7 @@ function App() {
         <Courses/>
         <Testimonials/>
         <Footer/>
-        <About/>
+        {/* <About/>  */}
       </div>
   )
 }
