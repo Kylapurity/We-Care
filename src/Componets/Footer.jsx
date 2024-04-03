@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <div className='bg-black mt-10'>
       <div className='container mx-auto py-6'>
-        <h1 className='text-2xl font-bold text-white uppercase underline mb-4 ml-20'>We Care</h1>
+        <h1 className='text-3xl font-bold text-white uppercase underline mb-4 ml-20'>We Care</h1>
         <div className='flex justify-between items-center'>
           <div className='text-white flex items-center'>
-            <img src="/src/Images/girl.jpg" alt="Women together" className="w-70 h-40 mr-4" />
-            <p className='text-white text-sm md:text-xl ml-15'>
+            <img src="/src/Images/girl.jpg" alt="Women together" className="w-80 h-40 ml-5" />
+            <p className='text-white text-sm md:text-xl ml-20'>
               We Care is dedicated to providing top-notch services in Nairobi, Kenya.<br/> 
               Through our programs and initiatives, we aim to equip young individuals with practical skills in various fields, <br/>
               including technology, entrepreneurship, and personal development. Our mission is to make a positive impact <br/>
