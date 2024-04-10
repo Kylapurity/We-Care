@@ -6,12 +6,12 @@ const Hero = () => {
     <div className="relative h-screen">
       <img 
         className="object-cover w-full h-full" 
-        src="/src/Images/xmmr.jpg" 
+        src="/src/Images/empower.jpg" 
         alt="women" 
       />
       <div className="absolute inset-0 flex flex-col justify-center pl-20 mb-5">
         <div className="z-10">
-          <h1 className="text-7xl font-bold text-black mb-4">
+          <h1 className="text-7xl font-bold text-white mb-4">
             Empowering<br/> 
             Youth Through<br/> 
             Education And Technology
