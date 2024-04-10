@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react
 
 const Footer = () => {
   return (
-    <div className='bg-black mt-10 rounded-sm '>
+    <div className='bg-black mt-10 rounded-sm'  id="contact">
       <div className='container mx-auto py-6'>
         <h1 className='text-3xl text-blue-600 uppercase pl-10'>
           <span  className="border-2 border-blue-700 rounded-full p-1">We</span>Care</h1>
@@ -21,19 +21,19 @@ const Footer = () => {
           <nav className="mt-4 mr-20">
             <ul>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">Home</a>
+                <a href="#home" className="text-gray-400 hover:text-white">Home</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">About Us</a>
+                <a href="#about" className="text-gray-400 hover:text-white">About Us</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">Courses</a>
+                <a href="#Courses" className="text-gray-400 hover:text-white">Courses</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">Testimonials</a>
+                <a href="#testimonials" className="text-gray-400 hover:text-white">Testimonials</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">Contact Us</a>
+                <a href="#contact" className="text-gray-400 hover:text-white">Contact Us</a>
               </li>
             </ul>
           </nav>
