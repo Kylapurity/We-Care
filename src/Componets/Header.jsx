@@ -14,9 +14,9 @@ const Header = () => {
                     <span className="mx-4"></span>
                     <a href="#menu" className="text-1xl text-black hover:text-gray-900 hover:underline active:underline font-bold uppercase">About</a>
                     <span className="mx-4"></span>
-                    <a href="#" className="text-1xl text-black hover:text-gray-900 hover:underline active:underline font-bold uppercase">Courses</a>
+                    <a href="#Courses" className="text-1xl text-black hover:text-gray-900 hover:underline active:underline font-bold uppercase">Courses</a>
                     <span className="mx-4"></span>
-                    <a href="#Contact" className="text-1xl text-black hover:text-gray-900 hover:underline active:underline font-bold uppercase">Testimonials</a>
+                    <a href="#testimonials" className="text-1xl text-black hover:text-gray-900 hover:underline active:underline font-bold uppercase">Testimonials</a>
                     <span className="mx-4"></span>
                     <a href="#Contact" className="text-1xl text-black hover:text-gray-900 hover:underline active:underline font-bold uppercase">Contact Us</a>
                 </div>
