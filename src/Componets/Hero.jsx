@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="z-10">
           <h1 className="text-7xl font-bold text-white mb-4">
             Empowering<br/> 
-            Youth Through<br/> 
+            Women Through<br/> 
             Education And Technology
           </h1>
         </div>
