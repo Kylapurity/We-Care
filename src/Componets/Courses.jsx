@@ -34,7 +34,7 @@ const Courses = () => {
       {/* <h1 className="text-3xl font-semibold flex justify-center items-center underline text-blue-700 uppercase pt-5">Featured Courses</h1> */}
       <div className="flex flex-wrap gap-10 ml-20 mt-5">
         {Data.map((d, index) => (
-          <div key={index} className="p-6 bg-gray-100 rounded-lg shadow-md w-72">
+          <div key={index} className="p-6 bg-white rounded-lg shadow-md w-72">
             <div className="mb-4">
               <img src={d.image} alt="course" className="w-full h-32 object-cover rounded-lg" />
             </div>
