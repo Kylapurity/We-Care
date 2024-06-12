@@ -10,7 +10,7 @@ const Footer = () => {
           <span  className="border-2 border-blue-700 rounded-full p-1">We</span>Care</h1>
         <div className='flex justify-between items-center'>
           <div className='text-white flex items-center '>
-            <img src="/src/Images/girl.jpg" alt="Women together" className="w-80 h-40 ml-5 pt-5" />
+            <img src="Images/girl.jpg" alt="Women together" className="w-80 h-40 ml-5 pt-5" />
             <p className='text-white text-sm md:text-xl ml-20'>
               We Care is dedicated to providing top-notch services in Nairobi, Kenya.<br/> 
               Through our programs and initiatives, we aim to equip young individuals with practical skills in various fields, <br/>

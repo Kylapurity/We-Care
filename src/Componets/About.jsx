@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
+
 const About = () => {
   return (
     <div className='flex flex-col lg:flex-row' id='about'>
@@ -14,7 +15,7 @@ const About = () => {
         <a href="https://www.youtube.com/watch?v=FEeTLopLkEo&pp=ygUfYSB2aWRlbyBpbnNpcHJpbmcgd29tZW4gaW4gdGVjaA%3D%3D" className='readmore' target='blank'>Watch More</a>
       </div>
       <div className='lg:w-1/2 flex justify-end pt-5 mr-20'>
-        <img src="../src/Images/together.jpg" alt="together" className='w-full lg:w-2/3 h-80'/>
+        <img src="/Images/together.jpg" alt="together" className='w-full lg:w-2/3 h-80'/>
       </div>
     </div>
   );
