@@ -30,18 +30,18 @@ const Data = [
 
 const Courses = () => {
   return (
-    <div className="container mb-0 " id='Courses'>
+    <div className="p-4 my-8" id='Courses'>
       {/* <h1 className="text-3xl font-semibold flex justify-center items-center underline text-blue-700 uppercase pt-5">Featured Courses</h1> */}
-      <div className="flex flex-wrap gap-10 ml-20 mt-5">
+      <div className="flex gap-6 mx-6 mt-5">
         {Data.map((d, index) => (
-          <div key={index} className="p-6 bg-white rounded-lg shadow-md w-72">
-            <div className="mb-4">
-              <img src={d.image} alt="course" className="w-full h-32 object-cover rounded-lg" />
+          <div key={index} className="flex flex-col justify-between space-y-4 shadown-lg bg-white p-4">
+            <img src={d.image} alt="course" className="w-full h-32 object-cover rounded-lg" />
+            <div className="flex flex-col justify-between space-y-4">
+              <h2 className="text-xl font-semibold">{d.name}</h2>
+              <p className="text-gray-800 text-sm">{d.description}</p>
+              <h3 className="text-blue-600 text-lg ">{d.price}</h3>
+              <button onClick={() => alert('Course Added to Cart')} className="flex-1 bg-blue-600 text-white px-4 py-2 rounded-full">Add to Cart</button>
             </div>
-            <h2 className="text-xl font-semibold mb-2">{d.name}</h2>
-            <p className="text-gray-800 text-sm mt-2">{d.description}</p>
-            <h3 className="text-blue-600 text-lg mt-2">{d.price}</h3>
-            <button onClick={() => alert('Course Added to Cart')} className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-full">Add to Cart</button>
           </div>
         ))}
       </div>
